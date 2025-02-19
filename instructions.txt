@@ -1,0 +1,33 @@
+Instructions for Running the Design Editor  
+  
+Following are prerequisites that need to be installed on the device:  
+- Node.js 
+- yarn  
+- git  
+
+Steps to Run the Project  
+1. Clone the Repository
+2. Install Dependencies
+   - yarn install/yarn
+3. Start the development server
+   - yarn dev
+   - The application should now be running at `http://localhost:3000/`.  
+
+Features Implemented  
+
+Minimum Requirements  
+- Pre-built Shapes: Rectangle and Circle are available.  
+- Drag & Resize: Users can move and resize shapes on the canvas.  
+- Save & Load Designs: Designs are stored in Local Storage and can be reloaded.  
+- Download Design: Users can export the canvas as a PNG file.  
+
+Bonus Features  
+- Undo/Redo: Users can undo and redo actions on the canvas.
+
+Notes  
+- The project uses Next.js + TypeScript for the frontend.  
+- Context API is used for state management.  
+- The design is responsive and adapts to different screen sizes.  
+- Added react-toastify for alert message
+- Used custom hooks for reusability
+- Used react-konva, konva, canvas to develop the features of the editor
